@@ -1,0 +1,30 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+.product-card {
+  background-color: lightgray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  margin: 0 auto;
+  border: 2px solid #ccc; 
+ 
+  min-height: 400px; overflow: hidden;position: relative;
+  border-image: url(border-image.png) 20% space;
+
+}
+
+.product-img {
+  height: auto;
+  width: 400px;
+}
+.product-title {
+  text-align: center; font-size: 1.5em;
+}
+
+.product-description{overflow: auto;max-height: 100px;}
+
+.product-price{visibility: hidden;  }
+
+.product-card:hover .product-price{visibility: visible;}
